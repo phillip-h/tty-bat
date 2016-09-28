@@ -5,8 +5,11 @@ Terminal-based battery indicator
 # about
 
 `tty-bat` is a small utility that displays a graphical indication of
-battery charge in a Linux terminal.
+battery charge in a Linux terminal. 
 
+![tty-bat in urxvt](bat.png)
+
+The battery level is read from `/sys/class/power_supply/BAT0/capacity`.
 
 # usage
 
